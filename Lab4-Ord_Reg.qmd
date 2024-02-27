@@ -130,7 +130,7 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 
 ```
 
-> is the interaction between `Gender` and `Age` warranted here? Test.
+> Is the interaction between `Gender` and `Age` warranted here? Test.
 
 ```{r}
 
