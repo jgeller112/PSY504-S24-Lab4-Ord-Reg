@@ -45,7 +45,7 @@ The dataset contains 3 variables:
 
 -   `Technical Rank`: Rank in technical
 
-## Load packages:
+## Load packages
 
 ```{r}
 
@@ -63,7 +63,7 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 
 ## Explore
 
-> Plot two figures showing the percentage of bakers in each rank--- create one for `Gender` and `Age`
+> Plot two figures showing the percentage of bakers in each rank--- create one for `Gender` and `Age.`
 
 ```{r}
 # figure 1
@@ -75,7 +75,7 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 
 ```
 
-> Create a crosstable (https://cran.r-project.org/web/packages/crosstable/vignettes/crosstable.html) to create a table showing the count across `Gender` and `Age` as a function on rank
+> Create a crosstable (https://cran.r-project.org/web/packages/crosstable/vignettes/crosstable.html) to create a table showing the count across `Gender` and `Age` as a function on rank.
 
 ```{r}
 ```
@@ -94,7 +94,7 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 ## ANSWER
 :::
 
-> Convert input variables to categorical factors as appropriate
+> Convert input variables to categorical factors as appropriate.
 
 ```{r}
 
@@ -152,7 +152,7 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 
 ## `brms`
 
-> Reference the readings from this week and run the above model in `brms` (find the code in the papers). We will come back to `brms` in a few weeks when we talk about Bayesian data analysis. Do not worry about specifics. I just want you to run the model using brms. Focus on the population-level effects from the output and look at the 95% credible intervals (if they don't include zero you can use this as an index of significance, or lack of).
+> Reference the readings from this week and run the above model in `brms` (find the code in the papers). We will come back to `brms` in a few weeks when we talk about Bayesian data analysis. Do not worry about specifics. I just want you to run the model using `brms`. Focus on the population-level effects from the output and look at the 95% credible intervals (kinda like 95% confidence intervals; if they don't include zero you can use this as an index of significance, or lack of).
 
 ```{r}
 #install.packages("brms")
@@ -165,7 +165,7 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 ## ANSWER
 :::
 
-> Use the `conditional_effects` function from `brm` to plot predicted probabilities by Gender and Age across each rank. This is just to highlight an easy way to plot data using the `brms` package.
+> Use the `conditional_effects` function from `brms` to plot predicted probabilities by Gender and Age across each rank. This is just to highlight an easy way to plot data using the `brms` package.
 
 ```{r}
 
