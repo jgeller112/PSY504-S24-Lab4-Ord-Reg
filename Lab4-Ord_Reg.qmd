@@ -111,14 +111,13 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 
 ```{r}
 
-
 ```
 
 ::: callout-note
 ## Answer
 :::
 
-> In a sentence or two, interpret the log odds and odds ratios for the effects of Gender, Age and Gender\*Age (even if they are non-significant). Be sure your answer includes the interpretation of the model coefficients and associated hypothesis tests or confidence intervals used to support your response.
+> In a sentence or two, interpret the log odds and odds ratios for the effects of Gender, Age and Gender\*Age (even if they are non-significant). Be sure your answer includes the interpretation of the model coefficients and associated hypothesis tests or confidence intervals used to support your response. Pay attention to how the variables are coded and makes changes if needed. If you do not remember how to code variables to get main effects and interactions in a regression model come talk to me.
 
 ::: callout-note
 ## ANSWER
@@ -139,8 +138,6 @@ gbbo <- read.csv("https://raw.githubusercontent.com/jgeller112/psy504-advanced-s
 > Use `ggemmeans` or `marginaleffects` to create a figure showing the interaction between `Gender` and `Age` as a function of rank. Plot predicted probabilities from the model. Make sure the plot is labeled appropriately and looks nice!
 
 ```{r}
-
-
 
 ```
 
